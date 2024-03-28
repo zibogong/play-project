@@ -1,0 +1,69 @@
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# sbt specific
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+.history
+dist/*
+target/
+cache/
+streams/
+project/target/
+project/project/
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+
+# IntelliJ IDEA specific
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Eclipse specific
+.classpath
+.project
+.settings/
+
+# VS Code specific
+.vscode/
+
+# Worksheets (e.g., Scala IDE)
+*.sc
+
+# Hidden files
+.DS_Store
+
+# Play framework specific
+logs/
+tmp/
+RUNNING_PID
+
+# g8 template cache
+.g8/
+
+# Metals language server for Scala
+.metals/
+.bloop/
