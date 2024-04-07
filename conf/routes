@@ -11,3 +11,6 @@ GET     /assets/*file               controllers.Assets.versioned(path="/public",
 
 # An example controller showing how to use dependency injection
 GET     /count                      controllers.CountController.count
+
+# Get the employ list
+GET     /employee                   controllers.EmployeeController.employeeList

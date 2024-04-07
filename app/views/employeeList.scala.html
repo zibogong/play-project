@@ -1,0 +1,18 @@
+@(employees: Seq[Employee])
+
+<table class="employee-list">
+  <tr>
+    <th>number</th>
+    <th>name</th>
+    <th>gender</th>
+    <th>position</th>
+  </tr>
+  @for(e <- employees){
+    <tr>
+      <td>@e.id</td>
+      <td>@e.name</td>
+      <td>@e.sex</td>
+      <td>@e.position</td>
+    </tr>
+  }
+</table>
